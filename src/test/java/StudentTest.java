@@ -14,7 +14,7 @@ public class StudentTest {
     @Before
 
     public void setUp() {
-        this.student = new Student("Andrew", 900338310, null);
+        this.student = new Student("Andrew", 900338310);
 
 
     }
@@ -50,9 +50,6 @@ public class StudentTest {
 
 
     }
-
-
-
 
 
 }

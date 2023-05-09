@@ -10,7 +10,7 @@ public class Student {
     private ArrayList<Integer> grades;
 
 
-    public Student(String name, long id, ArrayList<Integer> grades) {
+    public Student(String name, long id) {
 
         this.name = name;
         this.id = id;
