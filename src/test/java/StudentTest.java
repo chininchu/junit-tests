@@ -41,8 +41,18 @@ public class StudentTest {
     }
 
 
-    // Write the test
-    // Write the code in Student.java
+    @Test
+
+    public void testGradeAverage() {
+
+        student.addGrade(50);
+        assertNotNull(student.getGradeAverage());
+
+
+    }
+
+
+
 
 
 }

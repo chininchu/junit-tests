@@ -33,4 +33,21 @@ public class Student {
     public void addGrade(int grade) {
         grades.add(grade);
     }
+
+    public double getGradeAverage() {
+
+        double average = 0;
+
+
+        for (double grade : grades) {
+
+            average += grade;
+
+
+        }
+
+        return average / grades.size();
+
+
+    }
 }
